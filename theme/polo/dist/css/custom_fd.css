@@ -1,0 +1,372 @@
+body {
+  font-family: "Prompt";
+}
+
+p {
+  font-family: "Prompt";
+}
+
+.widget .widget-title, .widget > h4 {
+  font-family: "Prompt";
+}
+
+#header.dark #header-wrap {
+  background-color: #f77100;
+  border-bottom: 1px solid #f77100;
+}
+
+#topbar.topbar-dark, #topbar.dark {
+  background-color: #f77100;
+  border-color:  #f77100;
+}
+
+#header.header-sticky.dark #header-wrap {
+  background-color: #f77100 !important;
+}
+
+#header.header-fullwidth #header-wrap .header-extras {
+  border-left: none;
+}
+
+#topbar.topbar-dark .top-menu > li > a, #topbar.topbar-dark .social-icons li a, #topbar.dark .top-menu > li > a, #topbar.dark .social-icons li a {
+  color: #eee !important;
+  
+}
+
+#mainMenu nav > ul > li > a {
+  font-family: "Mitr";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#header .header-extras > ul > li > a:not(.btn) i, #header .header-extras > ul > li .topbar-dropdown > .title i {
+  font-size: 20px;
+}
+
+
+#mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
+  font-family: "Mitr";
+  font-size: 16px;
+  /* line-height: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #444444;
+  padding: 12px 20px 12px 18px;
+  display: block;
+  transition: .3s ease; */
+}
+
+/*  */
+.heading-new {
+  text-align: left;
+}
+
+.grid-filter li a {
+  font-family: "Prompt";
+  font-size: 18px;
+}
+
+.grid-active-title {
+  font-family: "Prompt";
+  font-size: 36px;
+}
+
+.item-link {
+  color:#f77100;
+}
+
+.item-link:hover {
+  color:#f77100;
+}
+
+.dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > a:hover, .dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > span:hover, .dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > a:hover, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > span:hover, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover {
+  color:#f77100;
+}
+
+#mainMenu nav > ul > li .dropdown-menu > li.current > a, #mainMenu nav > ul > li .dropdown-menu > li.current > span, #mainMenu nav > ul > li .dropdown-menu > li:hover > a, #mainMenu nav > ul > li .dropdown-menu > li:hover > span, #mainMenu nav > ul > li .dropdown-menu > li:focus > a, #mainMenu nav > ul > li .dropdown-menu > li:focus > span, #mainMenu nav > ul > li .dropdown-menu > li:active > a, #mainMenu nav > ul > li .dropdown-menu > li:active > span, #mainMenu nav > ul > li .dropdown-menu > li.hover-active > a, #mainMenu nav > ul > li .dropdown-menu > li.hover-active > span {
+  color:#f77100 !important;
+}
+
+.btn.btn-outline {
+  border-color: #f77100;
+  color: #f77100;
+}
+
+.btn.btn-outline:hover, .btn.btn-outline:focus, .btn.btn-outline:active, .btn.btn-outline.active {
+    background-color: #f77100;
+    border-color: #f77100;
+}
+
+.owl-carousel.arrows-creative .owl-nav [class*="owl-"]:hover {
+  background-color: #f77100;
+}
+
+a:hover, a:focus, a:active {
+  color: #f77100;
+}
+
+#goToTop:after, #goToTop:before {
+  background-color: #f77100;
+}
+
+#topbar {
+  z-index: 190;
+}
+
+
+
+
+#header #header-wrap #logo {
+  margin-top: -30px;
+  margin-left: 40px;
+}
+
+#header #header-wrap #logo a > img {
+  height: 80px;
+}
+
+@media only screen and (min-width: 991px) {
+  #header #header-wrap #logo a > img {
+    height: 100px;
+  }
+
+  #header.header-sticky #header-wrap #logo a > img  {
+    height: 80px !important;
+  }
+
+  .head-post{
+    min-height: 120px;
+  }
+ 
+}
+
+/* @media only screen and (max-width: 768px) {
+ 
+  
+} */
+
+@media (max-width: 991px) {
+  #header #mainMenu:not(.menu-overlay) nav > ul > li.dropdown:before {
+      color: #fff;
+  }
+  .dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > a, .dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > span, .dark #mainMenu:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > a, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li > span, #mainMenu.dark:not(.light):not(.menu-rounded) nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
+    color: #eeeeee;
+  }
+  #mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a {
+    font-size: 13px;
+  }
+
+  .div-gallery {
+    padding-top: 40px;
+  }
+}
+
+
+
+#header.header-sticky #header-wrap #logo {
+  margin-top: 0px;
+  height: 70px;
+}
+
+/* #header #header-wrap #logo {
+  margin-top: 10px;
+} */
+
+#topbar .top-menu > li > a {
+  font-size: 16px;
+}
+
+#topbar .top-menu {
+  float: right;
+}
+
+section.section-news, section.section-news-document, section.section-project {
+  padding: 0px;
+  padding-top: 40px;
+}
+
+.div-btn-news{
+ margin-top: -30px; 
+}
+
+.grid-filter.gf-creative li:hover a, .grid-filter.gf-creative li.active a {
+  color: #ff6600
+}
+
+.grid-filter.gf-creative li a:after {
+  background:  #ff6600
+}
+
+.tag-news{
+  float:right;
+  color:#aaa;
+  font-size: 12px;
+}
+
+.btn i {
+  margin-right: 0px;
+}
+
+.btn.btn-primary {
+  background-color: #fd944d;
+  border-color:  #fd944d;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active {
+  background-color: #ff6600;
+  border-color: #ff6600;
+  color: #fff;
+}
+
+table.table-news-document tbody tr td{
+  height: 55px;
+  vertical-align: middle;
+}
+
+#footer.footer-dark, #footer.footer-dark a {
+  color: #ccc !important
+}
+
+
+.btn-menu-left {
+  border-radius: 0px;
+  font-size: 16px;
+  text-align: left;
+  font-family: "Mitr";
+  font-weight: 400;
+}
+
+.btn.btn-light:hover, .btn.btn-light:focus, .btn.btn-light:active, .btn.btn-light.active {
+  background-color:#ff6600;
+  border-color: #ff6600;
+  color: #fff;
+}
+
+
+.ul-menu-document li .btn.btn-light {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #555;
+}
+
+.ul-menu-document .btn.btn-light:hover, .btn.btn-light:focus, .btn.btn-light:active, .btn.btn-light.active {
+  background-color:#ff6600;
+  border-color: #ff6600;
+  color: #fff;
+}
+
+hr.color-primary {
+  border-color:#ff6600;
+}
+hr.width-2 {
+  border-width: 2px;
+}
+
+.color-primary {
+ color:#ff6600;
+}
+
+#page-title .page-title > h1 {
+  font-family: "Mitr", "Helvetica", "Arial", sans-serif;
+}
+
+.post-navigation a:hover {
+  transition: all 0.3s ease;
+  color: #ff6600 !important;
+}
+
+.portfolio-item .portfolio-description a:hover i, .portfolio-item .grid-description a:hover i, .grid-item .portfolio-description a:hover i, .grid-item .grid-description a:hover i {
+  background-color: #ff6600;
+  color: #ffffff;
+  border: 1px solid #ff6600;
+}
+
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  background-color: #ff6600;
+  border-color: #ff6600;
+}
+
+.home-slider .owl-stage-outer{
+  height: 600px;
+}
+
+@media (max-width: 991px) {
+  .home-slider .owl-stage-outer{
+    height: 130px;
+  }
+}
+
+#footer.footer-dark .widget h4, #footer.footer-dark span {
+  color: #ccc !important;
+}
+
+span.address{
+  margin-left: 0.7em;
+}
+
+
+.heading > h1, .heading > h2 {
+  font-family: "Prompt";
+}
+
+.post-item .post-item-description > h2, .post-item .post-item-description > h2 > a {
+  font-family: "Prompt";
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Prompt';
+}
+
+#page-title.page-title-classic .page-title > span {
+  font-family: 'Prompt';
+}
+
+#page-title {
+  background-image: url('../img/bg_title.jpg');
+}
+
+
+.page-menu.menu-outline nav li:hover a, .page-menu.menu-outline nav li.active a {
+  border-color:  #ff6600;
+  color:  #ff6600;
+  background-color: transparent;
+}
+
+#page-title.page-title-classic .page-title > h1 {
+  color: #aaa;
+}
+
+#page-title.page-title-classic .breadcrumb ul li a {
+  color: #fff;
+}
+
+#page-title.page-title-classic .breadcrumb ul li + li:before {
+  background-color: #fff;
+}
+
+#page-title.page-title-classic .breadcrumb ul li {
+  color: #fff;
+}
+
+.accordion .ac-title {
+  background-color: #fe7300;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.accordion.fancy .ac-item .ac-active .ac-title, .accordion.fancy .ac-item :last-child {
+  border-bottom: none !important;
+}
+
+.btn.btn-slide.btn-xs > i {
+  left: 8px;
+  top: 6px;
+}
+
+.simple .tabs-navigation li.active a, .simple .tabs-navigation li.active a:focus, .simple .tabs-navigation li a:hover {
+  border-color: #fe7300;
+  color: #fe7300;
+  background-color: transparent;
+}
